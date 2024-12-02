@@ -1,5 +1,79 @@
 @charset "UTF-8";
 
-body{
-    background-image: url(imagens/foto\ casamento\ igreja.jpg.jpg);
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Lovers+Quarrel&display=swap');
+
+:root{
+    --fonte01:"Lovers Quarrel", cursive;
+    --fonte02:"Loved by the King",cursive;
+    --fonte03:arial, helvetica, cursive;
 }
+
+body{
+   background-image: linear-gradient(to left, rgb(221, 129, 144), rgb(226, 86, 110));
+}
+h1{
+    background-color: pink;
+    font-size: 60px;
+    padding: 30px;
+    border: 20px;
+    font-family: var(--fonte02);
+    text-align: center;
+    
+}
+h2{
+    font-size: 60px;
+    padding: 30px;
+    border: 20px;
+    font-family: var(--fonte02);
+    text-align: center;
+    background-color: pink;
+}
+p{
+    font-family: var(--fonte01);
+    padding: 50px;
+    font-size: 60px;
+}
+article{
+    font-family: var(--fonte01);
+    padding: 50px;
+    font-size: 60px;
+    font-size: 60px;
+    padding: 30px;
+}
+article>p{
+    background-color: rgb(247, 192, 224);
+}
+article.q1{
+    font-family: var(--fonte01);
+    background-image: url(imagens/foto\ 1.jpg);
+    padding: 40px;
+    font-size: 10vw;
+    background-attachment: fixed;
+    background-size: 96vh;
+    background-position: center left;
+    border: 20px;
+}
+article.q2{
+    font-family: var(--fonte01);
+    background-image: url(imagens/mosaico\ 4.jpg.jpg);
+    padding-top: 40px;
+    font-size: 10vw;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 60px;
+    padding: 30px;
+    border: 20px;
+}
+article.q3{
+    font-family: var(--fonte01);
+    background-image: url(imagens/foto\ 2.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    font-size: 60px;
+    text-align: center;
+}
+
+
