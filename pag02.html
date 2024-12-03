@@ -5,26 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feliz aniversário de Casamento</title>
     <link rel="shortcut icon" href="favicon_io/favicon.io.ico" type="image/x-icon">
-   <style>
-     body {
-        background-image: linear-gradient(to left, rgb(221, 129, 144), rgb(226, 86, 110)); 
-     }
-    div{
-background-image: url(imagens/mosaico\ 2.jpg.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-width: 100vw;
-height: 100vh;
+    <head>
 
-    }
-    
-   </style>
+    <style>
+        body{
+            background-image: linear-gradient(to left, rgb(221, 129, 144), rgb(226, 86, 110));
+        }
+        div.bloco{
+            border: 1px solid blue;
+            height: 400px;
+            border-radius: 60px;
+            background-image: url(imagens/mosaico\ 3.jpg.jpg);
+            margin: 10px;
+        }
+        div#q1{
+            background-position:left top ;
+        }
+        div#q2{
+            background-position:left center ;
+        }
+        div#q3{
+            background-position: right bottom;
+        }
+        div#q4{
+            background-position: center center;
+        }
+    </style>
 </head>
 <body>
-    <h1>
-        <div>
+<div class="bloco" id="q1">
 
-        </div> 
-    </h1>
+</div>
+<div class="bloco" id="q2">
+
+</div>
+<div class="bloco" id="q3">
+
+</div>
+<div class="bloco" id="q4">
+
+</div>
     <a href="index.html">página Inicial</a>
+</body>
 </html>
