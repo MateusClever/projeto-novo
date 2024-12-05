@@ -51,7 +51,7 @@ article.q1{
     padding: 40px;
     font-size: 10vw;
     background-attachment: fixed;
-    background-size: 96vh;
+    background-size: cover;
     background-position: center left;
     border: 20px;
 }
